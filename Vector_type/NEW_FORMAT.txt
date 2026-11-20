@@ -1,0 +1,129 @@
+NEW SPRITE FORMAT — 4×3 SHEET
+============================
+Date: November 20, 2026
+Status: description of the direction adopted after Vector_type was closed.
+Reference example: Arm1.png, drawn by hand.
+Project author: Entrenuim01.
+Co-author and summary writer: Codex by OpenAI (AI assistant).
+
+CORE IDEA
+---------
+An asset uses a compact sheet containing 4 columns and 3 rows. The basic angular
+step represents an actual 45° change in orientation. The prepared views cover
+half of the full directional range, or 180°. The other half is obtained by
+mirroring the appropriate sprites in the engine.
+
+Separate sets for both halves are unnecessary when mirroring correctly
+represents the asset. Asymmetric features need individual consideration:
+mirroring may change the meaning of a detail or the side of the object.
+
+SHEET LAYOUT
+------------
+Columns: 4.
+Rows: 3.
+Cells: 12.
+All cells have the same dimensions, W×H.
+The complete sheet measures (4×W) × (3×H).
+
+Cell layout, using one-based numbering:
+
+              column 1   column 2   column 3   column 4
+    row 1       [1,1]      [1,2]      [1,3]      [1,4]
+    row 2       [2,1]      [2,2]      [2,3]      [2,4]
+    row 3       [3,1]      [3,2]      [3,3]      [3,4]
+
+A 4×3 layout alone does not specify the angle or H/Y variant assigned to each
+cell. That order is defined by the author's layout and the engine's sheet
+handling. It should not be inferred solely from silhouette similarity or
+copied automatically from the old 5×5 yaw/pitch mapping.
+
+45° STEPS AND THE 180° RANGE
+--------------------------
+A 45° step describes a change in the represented object's actual orientation.
+Each frame accounts for the resulting foreshortening and visible shape change.
+
+Four steps of 45° span 180°. The number of steps must be distinguished from the
+number of samples including both endpoints: 0°, 45°, 90°, 135°, and 180° make
+five positions. With four directions, the engine needs a consistent convention
+for the half-turn boundary and transition to mirroring. A range of [0°, 180°)
+is one possible convention, but it is not a confirmed mapping for Arm1.png.
+
+H/Y SPRITES AND THE Z AXIS
+-------------------------
+According to the author's design, the view representing 45° about the Z axis
+is obtained from previously calculated H/Y sprites, taking the appropriate
+physical relationships into account. The H/Y labels follow the author's
+terminology.
+
+The important operation is to combine the source views with appropriate
+contributions and compress them in the relevant directions to produce the
+intended intermediate silhouette. Simply rotating a finished bitmap within
+the image plane does not replace this operation.
+
+This document does not invent unspecified formulas, blending weights, or
+H/Y-to-cell assignments. The hand-drawn asset is the visual reference. An old
+generator result should not replace it merely because that result was labeled
+as a 3D projection.
+
+ARM1.PNG EXAMPLE — PROPERTIES VERIFIED IN THE FILE
+------------------------------------------------
+Path:
+C:\Users\gryir\Documents\sceleton-new\assets\Arm1.png
+
+Format: PNG.
+Mode: RGBA.
+Full image dimensions: 128×96 px.
+Layout: 4 columns × 3 rows.
+Cell dimensions: 32×32 px.
+Background: transparent.
+Visible pixels: RGB 127, 127, 127 (#7F7F7F), alpha 255.
+Occupancy: all 12 cells contain a sprite.
+
+Gray is used to present this example. A finished asset can use its own palette.
+The 32×32 px cell size describes this example; the general 4×3 layout does not
+require every asset to use that size.
+
+READING THE SHEET IN THE ENGINE
+------------------------------
+For zero-based indices:
+    column c: 0..3
+    row r: 0..2
+    frame rectangle: x = c×W, y = r×H, width = W, height = H
+
+With row-major indexing, the frame index is r×4+c. This addresses cells; it
+does not define their angles.
+
+The engine selects a frame using the chosen direction map and applies the
+appropriate mirroring for the second half of the range. The mirroring axis,
+starting angle, direction of increasing angles, and attachment point must
+match the target implementation. They are not prescribed here based on the
+image alone.
+
+Preserve the asset's position within each cell. Automatically trimming to its
+bounds or independently centering frames may change the intended placement
+during animation and mirroring. Differences in silhouette height are part of
+the change in view.
+
+RELATIONSHIP TO THE CLOSED PROJECT
+---------------------------------
+A 4×3 sheet is a finished asset for the engine. It is not the three-view source
+strip, YX | YZ | ZX, expected by check_lines.py and Vector_assets.py. It should
+not be passed to those tools as a replacement for their old input format.
+
+The existing scripts and experimental layouts remain archival. This format
+description does not add support for it to Vector_type.
+
+AUTHORSHIP, ACCURACY, AND CONTACT
+--------------------------------
+Project author: Entrenuim01.
+Document co-author and creator of this summary: Codex by OpenAI.
+
+Codex is an AI assistant and can make mistakes. Some details, interpretations,
+or conclusions in this document may be incomplete or not entirely correct.
+For questions about shortcomings, omissions, ambiguities, or corrections,
+please contact the project author:
+
+    GitHub: Entrenuim01
+    Discord ID: ete_van_a_num
+
+The project author is the final authority on the intended design and behavior.

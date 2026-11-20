@@ -1,0 +1,2 @@
+TIME	ACTION	PATH_1	PATH_2	PATH_3	PATH_4
+2026-11-01T14:18:37+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\arm_vector_test\checked\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\arm_vector_test\assets\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\arm_vector_test\assets\Arm_vector.png	

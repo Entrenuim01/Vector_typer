@@ -1,0 +1,86 @@
+VECTOR_TYPE — PROJECT CLOSURE
+=============================
+Date: November 20, 2026
+Status: closed by the project author.
+Project author: Entrenuim01.
+Co-author and summary writer: Codex by OpenAI (AI assistant).
+
+FINAL DECISION
+--------------
+After extended testing of his own version, the author ended development of
+Vector_type. The chosen direction is to use hand-drawn 4×3 sprite sheets,
+actual 45° angular steps, and a 180° range. The other half of the directional
+range is obtained by mirroring sprites in the engine. NEW_FORMAT.txt describes
+these new assumptions.
+
+This decision closes the existing view-generation project. It does not mean
+abandoning directional sprites in the target game.
+
+ORIGINAL PURPOSE
+----------------
+The project explored producing multiple views of an asset from a few source
+projections. Its scope included axis consistency checks, annotated previews,
+approximate volume reconstruction, and experiments with intermediate views.
+
+Main components retained in the project directory:
+- check_lines.py — checks three source views and creates reports/previews;
+- Vector_assets.py — reconstructs silhouettes and creates 5×5 projection sheets;
+- Vector.py — generates a schematic sheet of head directions;
+- Vector_assets_theory.py — experiments with source views and 2D rotations;
+- arm_vector_test/ — arm test assets and experimental variants;
+- vector_assets_staged/ — staged attempts to build views around a grid center.
+
+The last area of work discussed was vector_assets_staged/cross_axis_stage.py.
+The retained code records an experiment; it does not implement the new format.
+
+WHY THIS APPROACH WAS DISCONTINUED
+---------------------------------
+1. At this pixel scale, intermediate views are difficult to control. Rounding
+   a position or dimension by even one pixel substantially changes a small
+   silhouette.
+
+2. A larger view grid increases the amount of work and calibration required.
+   After testing, the author found a simpler 4×3 layout with 45° steps more
+   practical.
+
+3. Rotating a sprite within the image plane does not solve the problem of
+   changing an object's view. Directional foreshortening and the appropriate
+   combination of source-view information matter. The previous attempt to add
+   intermediate views in vector_assets_staged/ did not meet this expectation.
+
+4. Reconstruction from three silhouettes is approximate. It does not uniquely
+   recover the entire object or guarantee the intended pixel-art appearance.
+
+5. The author judged the hand-drawn Arm1.png example to be noticeably better
+   than the script-generated results. Control over individual pixels proved
+   more valuable than automatically producing a larger set of views.
+
+WHAT REMAINS
+------------
+The code, examples, reports, and existing instructions remain as an archive.
+README_CHECK.txt describes the old workflow. Closing the project does not
+change how those tools operate or add support for 4×3 sheets.
+
+The new reference asset is the hand-drawn Arm1.png:
+C:\Users\gryir\Documents\sceleton-new\assets\Arm1.png
+
+Its gray color was deliberately chosen for presentation. It is not a required
+palette for all future assets.
+
+The closure documents record the outcome and chosen direction. They do not
+start another generator iteration or modify the engine code.
+
+AUTHORSHIP, ACCURACY, AND CONTACT
+--------------------------------
+Project author: Entrenuim01.
+Document co-author and creator of this summary: Codex by OpenAI.
+
+Codex is an AI assistant and can make mistakes. Some details, interpretations,
+or conclusions in this document may be incomplete or not entirely correct.
+For questions about shortcomings, omissions, ambiguities, or corrections,
+please contact the project author:
+
+    GitHub: Entrenuim01
+    Discord ID: ete_van_a_num
+
+The project author is the final authority on the intended design and behavior.

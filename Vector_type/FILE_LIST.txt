@@ -1,0 +1,37 @@
+TIME	ACTION	PATH_1	PATH_2	PATH_3	PATH_4
+2026-11-01T12:59:56+01:00	VECTOR_HEAD	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\Vector_type_XZ_C5R5S128.png			
+2026-11-01T12:59:56+01:00	VECTOR_HEAD	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\Vector_type_XY_C5R5S128.png			
+2026-11-01T12:59:56+01:00	VECTOR_HEAD	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\Vector_type_YZ_C5R5S128.png			
+2026-11-01T13:07:38+01:00	VECTOR_HEAD	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\Vector_type_C5R5S128.png			
+2026-11-01T13:16:10+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\Arm_vector.svg	
+2026-11-01T13:16:10+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2_vector.svg	
+2026-11-01T13:16:10+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2_vector.svg	
+2026-11-01T13:31:17+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\Arm_vector.png	
+2026-11-01T13:31:17+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2_vector.png	
+2026-11-01T13:31:17+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2_vector.png	
+2026-11-01T13:47:24+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2_vector.png	
+2026-11-01T13:47:25+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2_vector.png	
+2026-11-01T13:50:44+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2_vector.png	
+2026-11-01T13:50:44+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M2_vector.png	
+2026-11-01T14:00:17+01:00	TEMPLATE	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\templates\SpriteTemplate_32x32.png			
+2026-11-01T14:00:51+01:00	RETURNED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm_checked.png	
+2026-11-01T14:00:51+01:00	RETURNED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\M1_2_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2_checked.png		
+2026-11-01T14:00:51+01:00	RETURNED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\M2_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M2_checked.png		
+2026-11-01T14:00:51+01:00	PREVIEW_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm_checked.png			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M1_2_checked.png			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M1_2_errors.txt			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M3.png			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M3_checked.png			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M3_errors.txt			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M4.png			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M4_checked.png			
+2026-11-01T14:00:51+01:00	ERROR_REMOVED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M4_errors.txt			
+2026-11-01T14:00:55+01:00	CHECKED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\Arm.png	
+2026-11-01T14:00:55+01:00	CHECKED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\M1_2.png	
+2026-11-01T14:00:55+01:00	ERROR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M1_2_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M1_2_checked_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M1_2_checked_errors.txt	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\M1_2_checked.png
+2026-11-01T14:00:56+01:00	ERROR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M2_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M2_checked_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\errors\M2_checked_errors.txt	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\M2_checked.png
+2026-11-01T14:01:13+01:00	VECTOR_HEAD	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\Vector_type_C5R5S32.png			
+2026-11-01T14:04:24+01:00	ASSET_VECTOR	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\M1_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2_2.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\assets\M1_2_vector_2.png	
+2026-11-01T14:10:41+01:00	VECTOR_HEAD	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\Vector_type_C5R10S32.png			
+2026-11-01T14:13:54+01:00	CHECKED	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\checked\Arm_checked.png	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\check\Arm.png	
+2026-11-03T15:04:16+01:00	VECTOR_HEAD	C:\Users\gryir\Desktop\potrzebne\GitHub\Upload\Vector_type\Vector_type_C5R5S64.png			

@@ -1,0 +1,420 @@
+{
+  "format_version": 8,
+  "source_file": "Arm.png",
+  "source_view_order": [
+    "XZ",
+    "XY",
+    "YZ"
+  ],
+  "centered_sprite_size_px": {
+    "width": 32,
+    "height": 32
+  },
+  "centering": {
+    "XZ": {
+      "method": "opaque-pixel-bounds",
+      "source_bbox_inclusive_px": {
+        "left": 11,
+        "top": 3,
+        "right": 18,
+        "bottom": 24
+      },
+      "applied_offset_px": {
+        "x": 1,
+        "y": 2
+      },
+      "offset_direction": "positive x moves right; positive y moves down"
+    },
+    "XY": {
+      "method": "opaque-pixel-bounds",
+      "source_bbox_inclusive_px": {
+        "left": 11,
+        "top": 3,
+        "right": 19,
+        "bottom": 24
+      },
+      "applied_offset_px": {
+        "x": 1,
+        "y": 2
+      },
+      "offset_direction": "positive x moves right; positive y moves down"
+    },
+    "YZ": {
+      "method": "opaque-pixel-bounds",
+      "source_bbox_inclusive_px": {
+        "left": 3,
+        "top": 3,
+        "right": 10,
+        "bottom": 11
+      },
+      "applied_offset_px": {
+        "x": 9,
+        "y": 9
+      },
+      "offset_direction": "positive x moves right; positive y moves down"
+    }
+  },
+  "percentage_model": {
+    "vertical_axis_change": "X -> Y; top is positive, bottom is negative",
+    "horizontal_axis_change": "Z -> X; left is negative, right is positive",
+    "reference_axis_angles_deg": [
+      [
+        -54.7,
+        -59.3,
+        -90.0,
+        59.3,
+        54.7
+      ],
+      [
+        -28.1,
+        -36.5,
+        90.0,
+        36.5,
+        28.1
+      ],
+      [
+        1.7,
+        8.3,
+        0.0,
+        -8.3,
+        -1.7
+      ],
+      [
+        28.1,
+        36.5,
+        90.0,
+        -36.5,
+        -28.1
+      ],
+      [
+        54.7,
+        59.3,
+        -90.0,
+        -59.3,
+        -54.7
+      ]
+    ],
+    "center_view": "last input view: YZ (dot/reference point)",
+    "center_copy_mode": "direct centered YZ sprite; no rotation or flip",
+    "side_and_bottom_anchors_stay_upright": true,
+    "interpolation": "signed row/column percentages interpolate 180-degree-periodic relative axis-angle offsets calibrated from the hand-drawn 5x5 reference; the five axis anchors use their source views directly",
+    "cells": [
+      [
+        {
+          "vertical_percent": 100.0,
+          "horizontal_percent": -100.0,
+          "rotation_deg": 54.7,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 100.0,
+          "horizontal_percent": -50.0,
+          "rotation_deg": 59.3,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 100.0,
+          "horizontal_percent": 0.0,
+          "rotation_deg": 0,
+          "source_view": "YZ"
+        },
+        {
+          "vertical_percent": 100.0,
+          "horizontal_percent": 50.0,
+          "rotation_deg": -59.3,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 100.0,
+          "horizontal_percent": 100.0,
+          "rotation_deg": -54.7,
+          "source_view": "XZ"
+        }
+      ],
+      [
+        {
+          "vertical_percent": 50.0,
+          "horizontal_percent": -100.0,
+          "rotation_deg": 28.1,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 50.0,
+          "horizontal_percent": -50.0,
+          "rotation_deg": 36.5,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 50.0,
+          "horizontal_percent": 0.0,
+          "rotation_deg": -90.0,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 50.0,
+          "horizontal_percent": 50.0,
+          "rotation_deg": -36.5,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 50.0,
+          "horizontal_percent": 100.0,
+          "rotation_deg": -28.1,
+          "source_view": "XZ"
+        }
+      ],
+      [
+        {
+          "vertical_percent": 0.0,
+          "horizontal_percent": -100.0,
+          "rotation_deg": 0,
+          "source_view": "XY"
+        },
+        {
+          "vertical_percent": 0.0,
+          "horizontal_percent": -50.0,
+          "rotation_deg": -8.3,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 0.0,
+          "horizontal_percent": 0.0,
+          "rotation_deg": 0.0,
+          "source_view": "YZ"
+        },
+        {
+          "vertical_percent": 0.0,
+          "horizontal_percent": 50.0,
+          "rotation_deg": 8.3,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": 0.0,
+          "horizontal_percent": 100.0,
+          "rotation_deg": 0,
+          "source_view": "XY"
+        }
+      ],
+      [
+        {
+          "vertical_percent": -50.0,
+          "horizontal_percent": -100.0,
+          "rotation_deg": -28.1,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": -50.0,
+          "horizontal_percent": -50.0,
+          "rotation_deg": -36.5,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": -50.0,
+          "horizontal_percent": 0.0,
+          "rotation_deg": -90.0,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": -50.0,
+          "horizontal_percent": 50.0,
+          "rotation_deg": 36.5,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": -50.0,
+          "horizontal_percent": 100.0,
+          "rotation_deg": 28.1,
+          "source_view": "XZ"
+        }
+      ],
+      [
+        {
+          "vertical_percent": -100.0,
+          "horizontal_percent": -100.0,
+          "rotation_deg": -54.7,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": -100.0,
+          "horizontal_percent": -50.0,
+          "rotation_deg": -59.3,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": -100.0,
+          "horizontal_percent": 0.0,
+          "rotation_deg": 0,
+          "source_view": "YZ"
+        },
+        {
+          "vertical_percent": -100.0,
+          "horizontal_percent": 50.0,
+          "rotation_deg": 59.3,
+          "source_view": "XZ"
+        },
+        {
+          "vertical_percent": -100.0,
+          "horizontal_percent": 100.0,
+          "rotation_deg": 54.7,
+          "source_view": "XZ"
+        }
+      ]
+    ]
+  },
+  "anchors": {
+    "center": {
+      "cell_row": 3,
+      "cell_col": 3,
+      "source_view": "YZ",
+      "input_position": "third (last)",
+      "role": "dot/reference point"
+    },
+    "top": {
+      "cell_row": 1,
+      "cell_col": 3,
+      "source_view": "YZ",
+      "horizontal_flip": false,
+      "vertical_flip": false
+    },
+    "bottom": {
+      "cell_row": 5,
+      "cell_col": 3,
+      "source_view": "YZ",
+      "horizontal_flip": false,
+      "vertical_flip": true
+    },
+    "left": {
+      "cell_row": 3,
+      "cell_col": 1,
+      "source_view": "XY",
+      "horizontal_flip": true,
+      "vertical_flip": false
+    },
+    "right": {
+      "cell_row": 3,
+      "cell_col": 5,
+      "source_view": "XY",
+      "horizontal_flip": false,
+      "vertical_flip": false
+    }
+  },
+  "views": {
+    "XZ": {
+      "encoding": "one string per row; 1=visible pixel, 0=transparent",
+      "width": 32,
+      "height": 32,
+      "rows": [
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000111100000000000000",
+        "00000000000001111110000000000000",
+        "00000000000001111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000001111110000000000000",
+        "00000000000001111110000000000000",
+        "00000000000000111100000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000"
+      ]
+    },
+    "XY": {
+      "encoding": "one string per row; 1=visible pixel, 0=transparent",
+      "width": 32,
+      "height": 32,
+      "rows": [
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000001111110000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111100000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000001111110000000000000",
+        "00000000000000111100000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000"
+      ]
+    },
+    "YZ": {
+      "encoding": "one string per row; 1=visible pixel, 0=transparent",
+      "width": 32,
+      "height": 32,
+      "rows": [
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000111100000000000000",
+        "00000000000001111110000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000011111111000000000000",
+        "00000000000001111110000000000000",
+        "00000000000000111100000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000",
+        "00000000000000000000000000000000"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+SPRITE PROJECTION CHECK — NEEDS FIXING
+Input: M2_checked.png
+Image size: (96, 32)
+Measurement source: sprite silhouettes
+Without a complete set of colored axis guides, silhouette mode checks projected lengths only. It cannot confirm center alignment; yellow dotted margins are visual references.
+
+Axis results (view order is YX | YZ | ZX):
+- X (YX vs ZX): error
+  Projected span is 22px; matching view is 32px (difference -10px). Adjust the sprite's extreme pixels along X.
+- Z (YZ vs ZX): error
+  Projected span is 22px; matching view is 23px (difference -1px). Adjust the sprite's extreme pixels along Z.
+- Y: ok
+
+For measurement failures, the annotated preview is saved beside this report. Fix the named view(s), then put the corrected source PNG back in check/.

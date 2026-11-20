@@ -1,0 +1,63 @@
+OPIS DLA check_lines.py
+======================
+
+Wpisz odpowiedzi pod punktami. Możesz też wkleić zrzut obrazu z naniesionymi
+strzałkami lub numerami punktów. Nie musisz używać technicznych nazw.
+
+1. KOLEJNOŚĆ SPRITE'ÓW
+Podaj, co przedstawia każdy sprite od lewej do prawej:
+1) przedstawia oś YX, bok to oś Y a góra to oś X.
+2) przedstawia oś YZ, bok to oś Y a góra to oś Z.
+3) przedstawia oś ZX, bok to oś Z a góra to oś X.
+
+2. KOLORY W pokaz_V1
+Co oznacza każda linia i który jej odcinek mam porównywać?
+Czerwony:
+błąd, dosłownie błąd, pokazujesz ten kolor jak obrazek nie pasuje do którejś z osi, z osi nie konektywnych pokazujesz je kropkami.
+Niebieski: 
+miejsce poprawy błędu, czyli tam gdzie jest błąd, nie nakłada sie na czerwone kropki 
+Żółty: 
+pokazuje wyśrodkowanie względem punktu, czyli jeśli oś x jest na pierwszym spricie odsunięta od sprita o 3 px to na innej osi X też musi być odsunięty o 3px.
+Zielony(00ff00): 
+poprawna oś Y.
+Pomarańczowy: 
+dozwolony błąd.
+fioletowy(ff00ff): 
+poprawna oś X.
+jasnoniebieski(00aa01):
+poprawna oś Z.
+
+3. PRZENOSZENIE LINII
+Dla każdej pary sąsiednich sprite'ów opisz, skąd zaczyna się linia i do
+którego punktu ma dojść. Uwzględnij osobno górny i dolny punkt.
+
+Sprite 1 -> sprite 2:
+Górna linia: od pierwszego( nieliczysz pixela od którego liczysz) pixela od prawej który jest najwyżej do jednego przed pixela najbardziej wysunięty pixel od lewej( cały sprite) najwyżej wysuniętego 
+Dolna linia:  od 
+od pierwszego( nieliczysz pixela od którego liczysz) pixela od prawej który jest najniżej do jednego przed pixela najbardziej wysunięty pixel od lewej( cały sprite) najniżej wysuniętego 
+
+Sprite 2 -> sprite 3:
+Górna linia: brak są kropki u gury które są liczone, jeśli jest spad to kolor limonkowy( którym jest to zaznaczane) spada zielony o **06** od poprzedni kolor
+Dolna linia:  brak lini
+
+4. GDY PUNKTY SIĘ NIE ZGADZAJĄ
+Co ma pokazać linia docelowa? 
+niebieską linie czyli 0000ff
+Co ma pokazać linia błędu? gdzie sie kończy sprite a nie powiniec
+Kiedy linia ma być zielona? 
+kompletne pytanie to kiedy ma być odpowiedni kolor: kiedy jest w ramach sprita
+
+5. RYSOWANIE
+Czy linie mogą przechodzić przez czarne piksele sprite'a? nie
+Czy linie mają kończyć się na obrysie, czy przed nim? na
+Czy mam zachować przezroczyste tło? tak
+
+6. PRZYKŁAD
+Który plik najlepiej pokazuje oczekiwany wynik: pokaz_V1.png i pokaz_V1_001.png
+Co na nim jest poprawne, a co wymaga zmiany?:
+pokaz_V1_001.png jest w pełni poprawny. a pokaz_V1.png ma błędy takie jak źle scentrowny sprite ZX od osi X, gdzie to jest błąd dozwolony(kolor pomarańczowy) oraz YX gdzie Y jest źle scentrowany ale ma błąd dozwolony, za długi X w ZX gdzie jest to zaznaczone czerwoną linią oraz jest zaznaczona automatyczna poprawka niebieską, na krótka oś Z w ZX gdzie jest to zaznaczone w czerwonymi kropkami(linia przerywana)
+
+7. DODATKOWE UWAGI
+_____________________________________________________________________
+_____________________________________________________________________
+_____________________________________________________________________
